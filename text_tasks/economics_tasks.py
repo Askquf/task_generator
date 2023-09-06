@@ -44,7 +44,6 @@ def generate_economics_task_548855():
     result = float(start_capital)
 
     for i in range(years):
-        print(result)
         if i >= years_to_add - 1:
             result += addition_capital
         result += result * float(percent) / 100
